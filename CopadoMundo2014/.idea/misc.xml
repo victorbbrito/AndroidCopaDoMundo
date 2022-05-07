@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/layout/activity_assistencias.xml" value="0.33" />
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/layout/activity_cartoes_amarelos.xml" value="0.33" />
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/layout/activity_cartoes_vermelhos.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/layout/activity_cidades.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/layout/activity_classificacao.xml" value="0.33" />
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/layout/activity_estatisticas.xml" value="0.33" />
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/layout/activity_gols.xml" value="0.33" />
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/layout/activity_jogos.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/layout/activity_selecoes.xml" value="0.25" />
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/layout/list_cidades.xml" value="0.33" />
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/layout/list_item_selecoes.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/layout/list_jogos.xml" value="0.5" />
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/menu/main.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/victor/AndroidStudioProjects/CopadoMundo2014/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.232" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

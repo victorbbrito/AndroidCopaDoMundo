@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartoesVermelhosActivity">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="200dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView15"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraHolanda"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="200dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView14"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraBrasil"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="200dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView13"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraArgentina"
+        app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:autoText="false"
+        android:text="Grécia"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bandeiraHolanda"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraHolanda" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:autoText="false"
+        android:text="Itália"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bandeiraBrasil"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraBrasil" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:autoText="false"
+        android:text="Equador"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bandeiraArgentina"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraArgentina" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:autoText="false"
+        android:text="Kostas Katsouranis"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraHolanda"
+        app:layout_constraintTop_toTopOf="@+id/bandeiraHolanda" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:autoText="false"
+        android:text="Claudio Marchisio"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraBrasil"
+        app:layout_constraintTop_toTopOf="@+id/bandeiraBrasil" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:autoText="false"
+        android:text="Antonio Valencia"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraArgentina"
+        app:layout_constraintTop_toTopOf="@+id/bandeiraArgentina" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="200dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraAlemanha"
+        app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:autoText="false"
+        android:text="Croácia"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bandeiraAlemanha"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraAlemanha" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:autoText="false"
+        android:text="Ante Rebić"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraAlemanha"
+        app:layout_constraintTop_toTopOf="@+id/bandeiraAlemanha" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:autoText="false"
+        android:text="Camarões"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bandeiraColombia"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraColombia" />
+
+    <ImageView
+        android:id="@+id/bandeiraColombia"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/colombia"
+        app:layout_constraintBottom_toTopOf="@+id/bandeiraAlemanha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/camaroes" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:autoText="false"
+        android:text="Alexandre Song"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraColombia"
+        app:layout_constraintTop_toTopOf="@+id/bandeiraColombia" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="200dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintStart_toEndOf="@+id/bandeiraColombia"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/bandeiraAlemanha"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/alemanha"
+        app:layout_constraintStart_toStartOf="@+id/bandeiraColombia"
+        app:layout_constraintTop_toBottomOf="@+id/bandeiraColombia"
+        app:srcCompat="@drawable/croacia" />
+
+    <ImageView
+        android:id="@+id/bandeiraArgentina"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/argentina"
+        app:layout_constraintStart_toStartOf="@+id/bandeiraAlemanha"
+        app:layout_constraintTop_toBottomOf="@+id/bandeiraAlemanha"
+        app:srcCompat="@drawable/equador"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/bandeiraBrasil"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/bandeiraArgentina"
+        app:layout_constraintTop_toBottomOf="@+id/bandeiraArgentina"
+        app:srcCompat="@drawable/italia" />
+
+    <ImageView
+        android:id="@+id/bandeiraHolanda"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/bandeiraBrasil"
+        app:layout_constraintTop_toBottomOf="@+id/bandeiraBrasil"
+        app:srcCompat="@drawable/grecia" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

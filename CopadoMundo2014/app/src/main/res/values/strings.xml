@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Copa do Mundo 2014</string>
+    <string name="jogos">Jogos</string>
+    <string name="cidades">Cidades</string>
+    <string name="selecoes">Seleções</string>
+    <string name="estatisticas">Estatísticas</string>
+    <string name="todo">TODO</string>
+    <string name="copa_do_mundo_fifa_2014">COPA DO MUNDO FIFA 2014</string>
+    <string name="sobre">Sobre</string>
+    <string name="gols">GOLS</string>
+    <string name="assistencias">Assistências</string>
+    <string name="cartoes_amarelos">Cartões Amarelos</string>
+    <string name="cartoes_vermelhos">Cartões Vermelhos</string>
+    <string name="classificacao">Classificação</string>
+    <string name="colombia">colombia</string>
+    <string name="alemanha" />
+    <string name="argentina">argentina</string>
+    <string name="holanda">holanda</string>
+    <string name="alemanha_string">Alemanha</string>
+    <string name="imageBandeira" />
+    <string name="textview">TextView</string>
+</resources>

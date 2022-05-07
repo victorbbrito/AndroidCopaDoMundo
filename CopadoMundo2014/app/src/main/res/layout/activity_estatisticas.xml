@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".EstatisticasActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonClassificacao"
+            app:srcCompat="@drawable/copa" />
+
+        <Button
+            android:id="@+id/buttonClassificacao"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:onClick="onClickClassificacao"
+            android:text="@string/classificacao"
+            android:textColor="#002776"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonCartoesVermelhos"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/buttonCartoesVermelhos"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:onClick="onClickCartoesVermelhos"
+            android:text="@string/cartoes_vermelhos"
+            android:textColor="#002776"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonCartoesAmarelos"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/buttonCartoesAmarelos"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:onClick="onClickCartoesAmarelos"
+            android:text="@string/cartoes_amarelos"
+            android:textColor="#002776"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonAssistencias"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/buttonGols"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:onClick="onClickGols"
+            android:text="@string/gols"
+            android:textColor="#002776"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/buttonAssistencias"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:onClick="onClickAssistencias"
+            android:text="@string/assistencias"
+            android:textColor="#002776"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGols"
+            tools:ignore="TextContrastCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
